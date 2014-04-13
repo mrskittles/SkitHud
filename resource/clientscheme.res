@@ -429,6 +429,7 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		
 		"Default"
 		{
 			"1"
@@ -671,6 +672,148 @@ Scheme
 				"weight"		"800"
 			}
 		}
+		
+		
+		fogCrosshair
+        {
+            "1"
+            {
+                "name"      "Crosshairs"
+                "tall"      "28"
+                "additive"  "0"
+                "antialias"     "0"
+                "weight"    "0"
+                "outline"   "1"
+            }
+        }
+        fogCrosshairPlain
+        {
+            "1"
+            {
+                "name"      "Crosshairs"
+                "tall"      "28"
+                "additive"  "0"
+                "antialias"     "0"
+                "weight"    "0"
+                "outline"   "0"
+            }
+        }
+        fogCrosshairSmooth
+        {
+            "1"
+            {
+                "name"      "Crosshairs"
+                "tall"      "28"
+                "additive"  "0"
+                "antialias"     "1"
+                "weight"    "0"
+                "outline"   "0"
+            }
+        }
+		
+		"CrossHairCircle"
+        {
+            "1"
+            {
+                "name"      "Formas germetricas 1"
+                "tall"      "30"
+                "weight"    "0"
+                "antialias" "1"
+            }
+        }
+		 "CrossHairNormal"
+        {
+            "1"
+            {
+                "name"      "Symbol"
+                "tall"      "28"
+                "weight"    "0"
+                "additive"  "0"
+                "outline" "1"
+            }
+        }
+
+        "CrossHairRequest"
+        {
+            "1"
+            {
+                "name"      "Courier"
+                "tall"      "20"
+                "weight"    "0"
+                "additive"  "0"
+                "outline" "1"
+            }
+        }
+
+        "CrossHairCircle"
+        {
+            "1"
+            {
+                "name"      "Formas germetricas 1"
+                "tall"      "30"
+                "weight"    "0"
+                "antialias" "1"
+            }
+        }
+
+        "CrossHairDotOutline"
+        {
+            "1"
+            {
+                "name"      "Paula"
+                "tall"      "4"
+                "weight"    "0"
+                "outline" "1"
+                "antialias" "0"
+            }
+        }
+
+        "xHairNormal"
+        {
+            "1"
+            {
+                "name"      "Symbol"
+                "tall"      "30"
+                "weight"    "0"
+                "additive"  "0"
+                "outline" "1"
+            }
+        }
+
+        "xHairRequest"
+        {
+            "1"
+            {
+                "name"      "Courier"
+                "tall"      "20"
+                "weight"    "0"
+                "additive"  "0"
+                "outline" "1"
+            }
+        }
+
+        "xHairCircle"
+        {
+            "1"
+            {
+                "name"      "Formas germetricas 1"
+                "tall"      "30"
+                "weight"    "0"
+                "antialias" "1"
+            }
+        }
+
+        "xHairDotOutline"
+        {
+            "1"
+            {
+                "name"      "Paula"
+                "tall"      "4"
+                "weight"    "0"
+                "outline" "1"
+                "antialias" "0"
+            }
+        }
 		CenterPrintText
 		{
 			// note that this scales with the screen resolution
@@ -789,7 +932,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Archive"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -849,7 +992,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Archive"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -894,7 +1037,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Archive"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1372,6 +1515,9 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
+		
+				
+		
 		// this is the symbol font
 		"Marlett"
 		{
@@ -4300,6 +4446,66 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
-	}
+		}
+		"7" 						////////////These fonts were taken from HUDAS Iscariote as a reference since this is my first hud. Many thanks!
+        {
+            "font" "resource/symbol.ttf"
+            "name" "symbol"
+        }
+        "8" 
+        {
+            "font" "resource/FORMASGE.ttf"
+            "name" "FORMASGE"
+        }
+        "9" 
+        {
+            "font" "resource/Paula.ttf"
+            "name" "Paula"
+        }
+        "10" 
+        {
+            "font" "resource/Archive.otf"
+            "name" "Archive"
+        }
+        "11" 
+        {
+            "font" "resource/GOTHIC.ttf"
+            "name" "Century Gothic"
+        }
+        "12" 
+        {
+            "font" "resource/MuseoSansCyrl-500.otf"
+            "name" "MuseoSansCyrl-500"
+        }
+        "13" 
+        {
+            "font" "resource/Archive_numbers.otf"
+            "name" "Archive_numbers"
+        }
+        "14" 
+        {
+            "font" "resource/HudasIscariote.otf"
+            "name" "Hudas Iscariote"
+        }
+        "15"
+        {
+            "font" "resource/Blocks.ttf"
+            "name" "Blocks"
+        }
+        "16" 
+        {
+            "font" "resource/crosshairs.ttf"
+            "name" "Crosshairs"
+        }
+        "17" 
+        {
+        "font" "resource/Garm3nFont.ttf"
+        "name" "Garm3nFont"
+        }
+		"18"
+		{
+		"font"	"resource/Chandstate.tff"
+		"name"	"Chandstate"
+		}
+    }
 }

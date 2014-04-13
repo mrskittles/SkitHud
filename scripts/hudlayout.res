@@ -11,19 +11,35 @@
 		"tall"	"480"
 	}
 
+	
+	"CrossHairCircle"
+    {
+        "controlName"   "CExLabel"
+        "fieldName"     "CrossHairCircle"
+        "visible"       "1"
+        "enabled"       "1"
+        "zpos"          "2"
+        "xpos"          "c-17"
+        "ypos"          "c-16"
+        "wide"          "34"
+        "tall"          "32"
+        "font"          "CrossHairCircle"
+        "labelText"     "i"
+        "fgcolor"       "255 255 255 255"
+        "textAlignment" "center"    
+    }
+	
+	
+	
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
-		"tall"	"45"
+		"xpos"	"r250"
+		"ypos"	"r150"
+		"wide"	"150"
+		"tall"	"90"
 	}
 	
 	HudObjectiveStatus
@@ -86,20 +102,15 @@
 		"tall"			"100"
 	}
 	
-	HudDemomanCharge
+	HudDemomanCharge				//stickybombs
 	{
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-34"
+		"ypos"			"r180"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -423,9 +434,19 @@
 	}
 
 	HudDamageIndicator
-	{
-
-	}
+    {
+        "fieldName" 
+        "HudDamageIndicator" 
+        "visible" "1" 
+        "enabled" "1" 
+        "MinimumWidth" "10" 
+        "MaximumWidth" "10" 
+        "StartRadius" "80" 
+        "EndRadius" "80" 
+        "MinimumHeight" "30" 
+        "MaximumHeight" "60" 
+        "MinimumTime" "1"
+    }
 
 	HudCommentary
 	{

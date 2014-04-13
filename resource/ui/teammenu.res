@@ -111,6 +111,7 @@
 		"enabled"		"1"
 		"tabPosition"	"3"	
 		"textAlignment"	"south-west"
+		"labelText"		"&3"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
@@ -223,7 +224,7 @@
 		"tall"			"310"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
 		"labelText"		"&1"	[$WIN32]

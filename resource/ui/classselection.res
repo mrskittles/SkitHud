@@ -15,6 +15,34 @@
 		"tabPosition"	"0"
 	}
 	
+	"Backgroundbar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Backgroundbar"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"125"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"175 175 175 255"
+	}
+	
+	"Backgroundshade"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldname"		"Backgroundshade"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
+	
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -757,6 +785,7 @@
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"font"			"HudFontSmallBold"
+		"fgcolor"		"25 25 25 255"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -835,7 +864,7 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fov"			"16"
 		
@@ -888,21 +917,12 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
 		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
-		"zpos"			"4"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
+		"fillcolor"		"175 175 175 255"
 	}		
 	
 	"Footer" [$X360]

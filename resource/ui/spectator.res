@@ -8,7 +8,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"		"0"
 	}
 	"specgui"
@@ -20,52 +20,18 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"84"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"tall_minmode"			"20"	[$WIN32]
 		"tall"			"104"	[$X360]		
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-	}
-	"BottomBar"
-	{
-		"ControlName"	"Frame"
-		"fieldName"		"BottomBar"
-		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r20"
-		"tall"			"70"	[$WIN32]
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
-	"bottombarblank"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"bottombarblank"
-		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
-		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-	}
+	
+	
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -85,7 +51,7 @@
 		"tall_hidef"		"23"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
@@ -306,7 +272,7 @@
 		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"%tip%"
