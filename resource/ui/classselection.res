@@ -140,10 +140,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Offense"
+		"labelText"		"Offense"
 		"textAlignment"	"left"
-		"font"			"MenuClassBuckets"
-		"font_lodef"			"MenuMainTitle"
+		"font"			"MenuMainTitleSmaller"
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
 	}
@@ -166,11 +165,10 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"1"	[$WIN32]
-		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 1"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"MenuMainTitleRealSmall"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_scout_inactive"
@@ -234,7 +232,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 3"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"MenuMainTitleRealSmall"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_soldier_inactive"
@@ -298,7 +296,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 7"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"MenuMainTitleRealSmall"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_pyro_inactive"
@@ -358,10 +356,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Defense"
+		"labelText"		"Defense"
 		"textAlignment"	"left"
-		"font"			"MenuClassBuckets"
-		"font_lodef"			"MenuMainTitle"
+		"font"			"MenuMainTitleSmaller"
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
 	}
@@ -387,7 +384,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 4"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"MenuMainTitleRealSmall"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_demo_inactive"
@@ -449,7 +446,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 6"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"MenuMainTitleRealSmall"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_heavy_inactive"
@@ -510,7 +507,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 9"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"MenuMainTitleRealSmall"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_engineer_inactive"
@@ -570,10 +567,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Support"
+		"labelText"		"Support"
 		"textAlignment"	"left"
-		"font"			"MenuClassBuckets"
-		"font_lodef"			"MenuMainTitle"
+		"font"			"MenuMainTitleSmaller"
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
 	}
@@ -600,7 +596,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 5"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"MenuMainTitleRealSmall"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_medic_inactive"
@@ -663,7 +659,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"MenuMainTitleRealSmall"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_sniper_inactive"
@@ -726,7 +722,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"select 8"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"MenuMainTitleRealSmall"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_spy_inactive"
@@ -850,7 +846,7 @@
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"west"
 		"font"			"MenuMainTitle"
-		"fgcolor"		"HudOffWhite"
+		"fgcolor"		"Black"
 	}
 	
 	"MenuBG"
@@ -883,33 +879,33 @@
 		}
 	}	
 
-	"Hint"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"Hint"
-		"xpos"			"c-300"
-		"xpos_hidef"	"c-287"
-		"xpos_lodef"	"c-260"
-		"ypos"			"95"
-		"ypos_hidef"	"101"
-		"ypos_lodef"	"115"
-		"zpos"			"2"
-		"wide"			"600"
-		"tall"			"50"
-		"tall_lodef"	"30"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%hint%"
-		"textAlignment"	"left"
-		"wrap"			"1"
-		"font"			"HudFontMediumSmallSecondary"
-		"font_lodef"	"HudFontMediumSmallSecondary"
-		"fgcolor"		"HudTrainingHint"
-		"fgcolor_lodef"	"HudTrainingHint"
-	}
+	//"Hint"
+	//{	
+	//	"ControlName"	"CExLabel"
+	//	"fieldName"		"Hint"
+	//	"xpos"			"c-300"
+	//	"xpos_hidef"	"c-287"
+	//	"xpos_lodef"	"c-260"
+	//	"ypos"			"95"
+	//	"ypos_hidef"	"101"
+	//	"ypos_lodef"	"115"
+	//	"zpos"			"2"
+	//	"wide"			"600"
+	//	"tall"			"50"
+	//	"tall_lodef"	"30"
+	//	"autoResize"	"1"
+	//	"pinCorner"		"2"
+	//	"visible"		"0"
+	//	"enabled"		"1"
+	//	"tabPosition"	"0"
+	//	"labelText"		"%hint%"
+	//	"textAlignment"	"left"
+	//	"wrap"			"1"
+	//	"font"			"HudFontMediumSmallSecondary"
+	//	"font_lodef"	"HudFontMediumSmallSecondary"
+	//	"fgcolor"		"HudTrainingHint"
+	//	"fgcolor_lodef"	"HudTrainingHint"
+	//}
 	
 	"ShadedBar"
 	{
@@ -1210,7 +1206,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
-		"font"			"MenuClassBuckets"
+		"font"			"MenuMainTitleRealSmall"
 		"fgcolor"		"TanLight"
 	}	
 	
@@ -1230,7 +1226,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
-		"font"			"MenuClassBuckets"
+		"font"			"MenuMainTitleRealSmall"
 		"fgcolor"		"TanLight"
 	}		
 	
@@ -1250,7 +1246,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
-		"font"			"MenuClassBuckets"
+		"font"			"MenuMainTitleRealSmall"
 		"fgcolor"		"TanLight"
 	}			
 	
@@ -1270,7 +1266,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
-		"font"			"MenuClassBuckets"
+		"font"			"MenuMainTitleRealSmall"
 		"fgcolor"		"TanLight"
 	}				
 	
@@ -1290,7 +1286,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
-		"font"			"MenuClassBuckets"
+		"font"			"MenuMainTitleRealSmall"
 		"fgcolor"		"TanLight"
 	}					
 	
@@ -1310,7 +1306,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
-		"font"			"MenuClassBuckets"
+		"font"			"MenuMainTitleRealSmall"
 		"fgcolor"		"TanLight"
 	}						
 	
@@ -1330,7 +1326,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
-		"font"			"MenuClassBuckets"
+		"font"			"MenuMainTitleRealSmall"
 		"fgcolor"		"TanLight"
 	}							
 	
@@ -1350,7 +1346,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
-		"font"			"MenuClassBuckets"
+		"font"			"MenuMainTitleRealSmall"
 		"fgcolor"		"TanLight"
 	}						
 	
@@ -1370,7 +1366,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
-		"font"			"MenuClassBuckets"
+		"font"			"MenuMainTitleRealSmall"
 		"fgcolor"		"TanLight"
 	}								
 	

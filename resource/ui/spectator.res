@@ -19,7 +19,7 @@
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"9999"
 		"tall"			"0"	[$WIN32]
 		"tall_minmode"			"20"	[$WIN32]
 		"tall"			"104"	[$X360]		

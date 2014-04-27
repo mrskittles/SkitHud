@@ -1086,7 +1086,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1545,9 +1545,29 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Quicksand-Regular"
 				"tall"		"24"
 				"antialias" "1"
+				"weight"	"500"
+			}
+		}
+		"MenuMainTitleSmaller"
+		{
+			"1"
+			{
+				"name"		"Quicksand-Regular"
+				"tall"		"18"
+				"antialias"	"1"
+				"weight"	"500"
+			}
+		}
+		"MenuMainTitleRealSmall"
+		{
+			"1"
+			{
+				"name"		"Quicksand-Regular"
+				"tall"		"12"
+				"antialias"	"1"
 				"weight"	"500"
 			}
 		}
@@ -2132,7 +2152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -4447,65 +4467,48 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7" 						////////////These fonts were taken from HUDAS Iscariote as a reference since this is my first hud. Many thanks!
-        {
-            "font" "resource/symbol.ttf"
-            "name" "symbol"
-        }
-        "8" 
+		////////////////////////CUSTOM FONTS///////////////////////////
+		
+		
+        "7" 
         {
             "font" "resource/FORMASGE.ttf"
             "name" "FORMASGE"
-        }
-        "9" 
-        {
-            "font" "resource/Paula.ttf"
-            "name" "Paula"
-        }
-        "10" 
+        } 
+        "8" 
         {
             "font" "resource/Archive.otf"
             "name" "Archive"
         }
-        "11" 
-        {
-            "font" "resource/GOTHIC.ttf"
-            "name" "Century Gothic"
-        }
-        "12" 
-        {
-            "font" "resource/MuseoSansCyrl-500.otf"
-            "name" "MuseoSansCyrl-500"
-        }
-        "13" 
+        "9" 
         {
             "font" "resource/Archive_numbers.otf"
             "name" "Archive_numbers"
         }
-        "14" 
-        {
-            "font" "resource/HudasIscariote.otf"
-            "name" "Hudas Iscariote"
-        }
-        "15"
+        "10"
         {
             "font" "resource/Blocks.ttf"
             "name" "Blocks"
         }
-        "16" 
+        "11" 
         {
             "font" "resource/crosshairs.ttf"
             "name" "Crosshairs"
         }
-        "17" 
+        "12" 
         {
-        "font" "resource/Garm3nFont.ttf"
-        "name" "Garm3nFont"
+			"font" "resource/Garm3nFont.ttf"
+			"name" "Garm3nFont"
         }
-		"18"
+		"13"
 		{
-		"font"	"resource/Chandstate.tff"
-		"name"	"Chandstate"
+			"font" "resource/Quicksand-Regular.otf"
+			"name" "Quicksand-Regular"
+		}
+		"14"
+		{
+			"font" "resource/Quicksand-Bold.otf"
+			"name" "Quicksand-Bold"
 		}
     }
 }
