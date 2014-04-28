@@ -8,7 +8,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"0"
+		"enabled"		"1"
 		"tabPosition"		"0"
 	}
 	"specgui"
@@ -19,18 +19,59 @@
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
 		"xpos"			"0"
-		"ypos"			"9999"
-		"tall"			"0"	[$WIN32]
-		"tall_minmode"			"20"	[$WIN32]
-		"tall"			"104"	[$X360]		
+		"ypos"			"0"
+		"tall"			"0"	
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+	}
+	"BottomBar"
+	{
+		"ControlName"	"Frame"
+		"fieldName"		"BottomBar"
+		"xpos"			"0"
+		"ypos"			"r20"	
+		"tall"			"0"	
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
-	
+	"bottombarblank"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"bottombarblank"
+		"xpos"			"0"
+		"ypos"			"r0"	
+		"tall"			"0"			// this needs to match the size of BottomBar
+		"wide"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+	}
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"c-60"
+		"ypos"			"40"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"234 234 234 255"
+		"PaintBackgroundType"	"0"
+	}
 	
 	"ReinforcementsLabel"
 	{
@@ -91,9 +132,9 @@
 		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
 	}
@@ -143,7 +184,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
@@ -165,7 +206,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
@@ -186,7 +227,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
@@ -207,7 +248,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
@@ -228,7 +269,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
@@ -249,7 +290,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"

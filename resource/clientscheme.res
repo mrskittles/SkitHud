@@ -932,8 +932,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Archive"
-				"tall"		"44"
+				"name"		"Hasteristico Bold"
+				"tall"		"60"
 				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -1037,7 +1037,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Archive"
+				"name"		"Hasteristico Light"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1086,7 +1086,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand-Bold"
+				"name"		"Quicksand"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -4509,6 +4509,16 @@ Scheme
 		{
 			"font" "resource/Quicksand-Bold.otf"
 			"name" "Quicksand-Bold"
+		}
+		"15"
+		{
+			"font" "resource/Hasteristico.ttf"
+			"name" "Hasteristico Light"
+		}
+		"16"
+		{
+			"font" "resource/HasteristicoBOLD.ttf"
+			"name" "Hasteristico Bold"
 		}
     }
 }
