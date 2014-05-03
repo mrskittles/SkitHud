@@ -1,11 +1,40 @@
 "Resource/UI/TargetID.res"
 {
+	"TargetBG"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "TargetBG"
+		"xpos" 		"0"
+		"ypos" 		"0"
+		"zpos" 		"-1"
+		"wide" 		"252"
+		"tall" 		"50"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"fillcolor" "100 100 100 128"	
+	}
+	"TargetBackground2"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "TargetBackground2"
+		"xpos" 		"0"
+		"ypos" 		"15"
+		"zpos" 		"6"
+		"wide" 		"600"
+		"tall" 		"15"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" 	"1"
+		"enabled" 	"1"
+	}
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"50"
@@ -27,12 +56,45 @@
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
 	}
+	
+	"TargetSpecBGBlue"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "TargetIDBG_Spec_Blue"
+		"xpos" 		"0"
+		"ypos" 		"0"
+		"zpos" 		"-1"
+		"wide" 		"252"
+		"tall" 		"50"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"fillcolor" "100 100 100 128"
+			
+	}
+	"TargetSpecBGRed"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "TargetIDBG_Spec_Red"
+		"xpos" 		"0"
+		"ypos" 		"0"
+		"zpos" 		"-1"
+		"wide" 		"252"
+		"tall" 		"50"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"fillcolor" "100 100 100 128"
+			
+	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -43,45 +105,43 @@
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		//"src_corner_height"		"23"				// pixels inside the image
+		//"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		//"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		//"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		//"src_corner_height"		"23"				// pixels inside the image
+		//"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		//"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		//"draw_corner_height" 	"5"
 	}
 	
 	"TargetNameLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudFontMediumSmallSecondary"
-		"font_minmode"	"TFFontLarge"
+		"fgcolor"		"White"
 		"xpos"			"34"
-		"xpos_minmode"	"30"
 		"ypos"			"5"
-		"ypos_minmode"	"5"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -99,13 +159,9 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"TFFontMedium"
-		"font_minmode"	"DefaultVerySmall"
+		"fgcolor"		"White"
 		"xpos"			"34"
-		"xpos_minmode"	"30"
 		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -123,9 +179,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
-		"xpos_minmode"	"0"
 		"ypos"			"2"
-		"ypos_minmode"	"0"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
@@ -142,9 +196,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"34"
-		"xpos_minmode"	"30"
 		"ypos"			"21"
-		"ypos_minmode"	"19"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -159,9 +211,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"34"
-		"xpos_minmode"	"30"
 		"ypos"			"21"
-		"ypos_minmode"	"19"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"

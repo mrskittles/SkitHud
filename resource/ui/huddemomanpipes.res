@@ -45,7 +45,7 @@
 		"brighttext"			"0"
 	}				
 		
-	/*"PipeLabelBox"
+	"PipeLabelBox"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PipeLabelBox"
@@ -55,9 +55,9 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"fillcolor"		"black"
-	}*/
+	}
 		
 		
 	"PipesPresentPanel"
@@ -94,17 +94,13 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
 		}
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"51"  	//xpos of numpipeslabel +1
-			"xpos_minmode"	"43"	//ypos of numpipeslabel +1
-			"ypos"			"31"
-			"ypos_minmode"	"13"
+			"xpos"			"9999"  	
+			"ypos"			"9999"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -120,7 +116,7 @@
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"black"
+			"fgcolor"		"Blank"
 		}		
 	}
 	

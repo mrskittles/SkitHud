@@ -201,8 +201,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"ypos"					"r152"
+		"xpos"					"c-288"
+		"ypos"					"c45"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -243,11 +243,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"350"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
-		"priority_lodef"	"5"
 
 		if_vr
 		{
@@ -262,7 +261,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"200"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
@@ -278,7 +277,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"200"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"35"

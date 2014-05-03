@@ -40,6 +40,8 @@ Scheme
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 		
+		"BLUteam"				"70 130 180 255"
+		"REDteam"				"205 50 50 255"
 		"HUDBlueTeam"		"104 124 155 127"
 		"HUDRedTeam"		"180 92 77 127"
 		"HUDSpectator"		"124 124 124 127"
@@ -1050,7 +1052,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1668,13 +1670,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Quicksand-Regular"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		"ScoreboardKillDeath"
+		{
+			"1"
+			{
+				"name"		"Quicksand-Regular"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 		"ScoreboardSmall"
@@ -1706,7 +1719,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1718,7 +1731,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1732,7 +1745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1747,7 +1760,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Hasteristico Bold"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1757,7 +1770,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Hasteristico Bold"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1767,7 +1780,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Hasteristico Bold"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1776,7 +1789,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Hasteristico Bold"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1785,7 +1798,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Hasteristico Bold"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -2029,7 +2042,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Quicksand-Regular"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -4519,6 +4532,11 @@ Scheme
 		{
 			"font" "resource/HasteristicoBOLD.ttf"
 			"name" "Hasteristico Bold"
+		}
+		"17"
+		{
+			"font" "resource/telegrafico_by_ficod.ttf"
+			"name" "Telegrafico"
 		}
     }
 }
