@@ -21,7 +21,7 @@
 		"score_width"		"25"
 		"score_width_lodef"	"35"
 		"score_width_hidef"	"50"
-		"ping_width"		"23"	[$WIN32]
+		"ping_width"		"25"	[$WIN32]
 	}
 	"BlueScoreBG"
 	{
@@ -82,6 +82,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fillcolor"		"0 0 0 153"
 		
 		
 		if_mvm
@@ -89,7 +90,9 @@
 			"ypos"			"0"
 			"tall"			"448"
 		}
-	}							
+	}
+	
+	
 	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -339,15 +342,10 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"5"
-		"xpos_lodef"	"10"
-		"xpos_hidef"	"30"
 		"ypos"			"72"
 		"zpos"			"20"
 		"wide"			"290"
-		"wide_lodef"	"267"
-		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
-		"tall"			"255"	[$X360]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -366,15 +364,10 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"305"
-		"xpos_lodef"	"284"
-		"xpos_hidef"	"314"
 		"ypos"			"72"
 		"zpos"			"20"
 		"wide"			"290"
-		"wide_lodef"	"267"
-		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
-		"tall"			"255"	[$X360]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -393,8 +386,6 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"299"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"2"
@@ -403,8 +394,8 @@
 		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
@@ -480,7 +471,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
+		"fillcolor"		"0 0 0 100"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -1311,165 +1302,7 @@
 		}
 	}
 
-	"ButtonLegendBG"		[$X360]
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ButtonLegendBG"
-		"xpos"			"10"
-		"xpos_hidef"	"30"
-		"ypos"			"373"
-		"zpos"			"0"
-		"wide"			"539"
-		"wide_hidef"	"559"
-		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"ButtonLegend"		[$X360]
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ButtonLegend"
-		"xpos"			"10"
-		"xpos_hidef"	"35"
-		"ypos"			"373"
-		"zpos"			"1"
-		"wide"			"539"
-		"wide_hidef"	"595"
-		"tall"			"150"
-		"visible"		"1"
-										
-		"SelectHintIcon"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SelectHintIcon"
-			"font"			"GameUIButtons"
-			"xpos"			"10"
-			"xpos_hidef"	"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"38"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"C"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
 		
-		"SelectHintLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SelectHintLabel"
-			"font"			"ScoreboardMedium"
-			"xpos"			"25"
-			"xpos_lodef"	"37"
-			"ypos"			"2"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"39"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_Select"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-		
-		"GamerCardIcon"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"GamerCardIcon"
-			"font"			"GameUIButtons"
-			"xpos"			"150"
-			"xpos_hidef"	"145"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"38"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"A"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-		
-		"GamerCardLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"GamerCardLabel"
-			"font"			"ScoreboardMedium"
-			"xpos"			"170"
-			"xpos_lodef"	"177"
-			"ypos"			"2"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"39"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#TF_ViewGamercard"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-		
-		"ReputationIcon"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ReputationIcon"
-			"font"			"GameUIButtons"
-			"xpos"			"350"
-			"xpos_hidef"	"378"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"38"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"X"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-		
-		"ReputationLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ReputationLabel"
-			"font"			"ScoreboardMedium"
-			"xpos"			"403"
-			"xpos_lodef"	"377"
-			"ypos"			"2"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"39"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_PlayerReview"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-	}				
 	
 	"MvMScoreboard"
 	{

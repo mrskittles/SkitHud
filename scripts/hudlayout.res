@@ -5,10 +5,10 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
+		"xpos"	"120"
+		"ypos"	"-25"
 		"wide"	"f0"
-		"tall"	"480"
+		"tall"	"600"
 	}
 
 	
@@ -36,10 +36,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r250"
-		"ypos"	"r150"
-		"wide"	"150"
-		"tall"	"90"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 	
 	HudObjectiveStatus
@@ -72,12 +72,12 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"4"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Black"
 	}
 	
 	HudMedicCharge
@@ -85,10 +85,12 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"353"	[$WIN32]
+		"ypos"			"298"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"90"
+		"MeterFG"		"White"
+		"MeterBG"		"Black"
 	}
 	
 	HudDemomanCharge				//stickybombs
@@ -96,25 +98,26 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-34"
-		"ypos"			"r180"
+		"xpos"			"353"
+		"ypos"			"342"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"tall"			"8"
+		"wide"			"f0"
+		"tall"			"4"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}	
+		"MeterBG"		"Black"
+	}
+		
 
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"xpos"			"350"	[$WIN32]
+		"ypos"			"342"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"tall"			"8"
+		"wide"			"200"
+		"tall"			"4"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -124,13 +127,13 @@
 		"fieldName"		"HudFlameRocketCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"xpos"			"350"	[$WIN32]
+		"ypos"			"342"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"tall"			"8"
+		"wide"			"200"
+		"tall"			"4"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Black"
 	}
 
 	HudBossHealth
@@ -261,7 +264,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"200"
+		"ypos"		"350"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
@@ -277,7 +280,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"200"
+		"ypos"		"300"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"35"
@@ -477,29 +480,26 @@
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
 		"ypos"	 "12"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
 		"tall"	 "468"
 
 		"MaxDeathNotices" "4"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"LineSpacing"	  "0"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"DeathNoticeFont"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"BLUteam"
+		"TeamRed"		"REDteam"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"Black"		[$WIN32]
+		"LocalBackgroundColor"	"244 244 244 255"	[$WIN32]
+
 	}
 
 	HudVehicle
@@ -1013,8 +1013,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
+		"xpos"			"410"	[$WIN32]
+		"ypos"			"344"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 	}	

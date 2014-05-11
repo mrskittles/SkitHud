@@ -122,18 +122,18 @@ Scheme
 		"ItemLimitedUse"						"0 160 0 255"
 		"ItemFlags"								"117 107 94 255"
 		
-		"QualityColorNormal"					"178 178 178 255"
+		"QualityColorNormal"					"233 233 233 255"
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
 		"QualityColorrarity3"					"112 85 15 255"
 		"QualityColorrarity4"					"134 80 172 255"
-		"QualityColorVintage"					"71 98 145 255"
-		"QualityColorUnique"					"255 215 0 255"
+		"QualityColorVintage"					"255 192 81 255"
+		"QualityColorUnique"					"233 233 233 255"
 		"QualityColorCommunity"					"112 176 74 255"
 		"QualityColorDeveloper"					"165 15 121 255"
 		"QualityColorSelfMade"					"112 176 74 255"
 		"QualityColorCustomized"				"71 98 145 255"
-		"QualityColorStrange"					"207 106 50 255"
+		"QualityColorStrange"					"15 127 192 255"
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
 		"QualityColorCollectors"				"170 0 0 255"
@@ -274,7 +274,7 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"TanLight"
+		Menu.TextColor					"White"
 		Menu.BgColor					"TransparentBlack"
 		Menu.ArmedTextColor				"TanDark"
 		Menu.ArmedBgColor				"TanLight"
@@ -431,66 +431,76 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		
+		"DeathNoticeFont"
+		{
+			"1"
+			{
+				"name"		"GeoSansLight"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+				
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"14"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"20"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"24"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"GeosansLight"
+				"tall"		"13"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"weight"		"500"
 			}
 			"7"
 			{
-				"name"		"Arial"
-				"tall"		"12"
+				"name"			"GeosansLight"
+				"tall"			"13"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"weight"		"500"
 			}
 
 			
@@ -510,14 +520,14 @@ Scheme
 				"name"		"Arial"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"weight"		"500"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -525,7 +535,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -533,7 +543,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -542,7 +552,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -551,7 +561,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -560,7 +570,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -572,7 +582,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -580,7 +590,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -588,7 +598,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -597,7 +607,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -606,7 +616,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -618,60 +628,60 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"18"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"21"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"22"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"28"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"30"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"weight"		"500"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"GeosansLight"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"weight"		"500"
 			}
 		}
 		
@@ -834,7 +844,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -845,38 +855,38 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
-				"weight"	"700"
+				"weight"	"500"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
-				"weight"	"700"
+				"weight"	"500"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"14"
-				"weight"	"700"
+				"weight"	"500"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"20"
-				"weight"	"700"
+				"weight"	"500"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"24"
-				"weight"	"700"
+				"weight"	"500"
 				"yres"	"1200 10000"
 			}
 		}
@@ -884,7 +894,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"GeosansLight"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -894,7 +904,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"GeosansLight"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -904,7 +914,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"GeosansLight"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -913,7 +923,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"GeosansLight"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -922,7 +932,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"GeosansLight"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -937,6 +947,29 @@ Scheme
 				"name"		"Hasteristico Bold"
 				"tall"		"60"
 				"tall_lodef"	"52"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudAmmo"
+		{
+			"1"
+			{
+				"name"		"Hasteristico Bold"
+				"tall"		"60"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"HudAmmoReserve"
+		{
+			"1"
+			{
+				"name"		"Hasteristico Bold"
+				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -994,8 +1027,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Archive"
-				"tall"		"24"
+				"name"		"Hasteristico Light"
+				"tall"		"20"
 				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
@@ -1065,19 +1098,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
+		"HudDamageNumbers"
+		{
+			"1"
+			{
+				"name"		"Archive"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"HudFontSmallishBold"
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1088,7 +1133,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand"
+				"name"		"Quicksand-Regular"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"GeoMainMenuSmall"
+		{
+			"1"
+			{
+				"name"		"GeosansLight"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1156,7 +1212,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Bold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1167,7 +1223,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1178,7 +1234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Bold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1189,7 +1245,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Bold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1200,7 +1256,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Bold"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1211,7 +1267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Bold"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1224,7 +1280,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1267,7 +1323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1293,7 +1349,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1304,7 +1360,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1315,7 +1371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -1328,7 +1384,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"8"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -1453,7 +1509,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "Verdana"
+				"name"  "GeosansLight"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1599,7 +1655,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -1613,7 +1669,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Quicksand-Regular"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1628,7 +1684,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Quicksand-Regular"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1643,7 +1699,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"Quicksand-Regular"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1656,7 +1712,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Quicksand-Regular"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -1720,7 +1776,7 @@ Scheme
 			"1"
 			{
 				"name"		"Quicksand-Regular"
-				"tall"		"20"
+				"tall"		"22"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1848,7 +1904,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1856,7 +1912,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1864,7 +1920,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1872,7 +1928,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1880,7 +1936,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1899,7 +1955,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1907,7 +1963,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1915,7 +1971,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1923,7 +1979,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1934,7 +1990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1942,7 +1998,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1950,7 +2006,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1958,7 +2014,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1966,7 +2022,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1978,7 +2034,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Arial Black"
+				"name"			"Quicksand-Regular"
 				"tall"			"8"
 				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
@@ -1991,7 +2047,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Quicksand-Regular"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2004,7 +2060,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Quicksand-Regular"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2016,7 +2072,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Quicksand-Regular"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2029,10 +2085,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"12"
+				"name"		"GeosansLight"
+				"tall"		"9"
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2056,7 +2110,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -2135,7 +2189,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -2145,7 +2199,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -2155,7 +2209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -2176,7 +2230,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2187,7 +2241,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2208,7 +2262,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -2219,7 +2273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2231,7 +2285,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2240,7 +2294,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2249,7 +2303,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2262,8 +2316,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"8"
+				"name"		"GeosansLight"
+				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2273,8 +2327,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"9"
+				"name"		"GeosansLight"
+				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2284,8 +2338,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"12"
+				"name"		"GeosansLight"
+				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2295,8 +2349,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"7"
+				"name"		"GeosansLight"
+				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2306,8 +2360,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"8"
+				"name"		"GeosansLight"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2317,7 +2371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"GeosansLight"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2329,7 +2383,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2340,7 +2394,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2353,7 +2407,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2369,7 +2423,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2377,7 +2431,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2385,7 +2439,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2394,7 +2448,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2403,7 +2457,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2415,7 +2469,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2426,7 +2480,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2434,7 +2488,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2442,7 +2496,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2451,7 +2505,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2460,7 +2514,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"GeosansLight"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2479,7 +2533,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2490,7 +2544,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2501,7 +2555,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Quicksand-Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2514,7 +2568,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2525,7 +2579,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2542,7 +2596,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2553,7 +2607,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2565,7 +2619,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -4533,10 +4587,10 @@ Scheme
 			"font" "resource/HasteristicoBOLD.ttf"
 			"name" "Hasteristico Bold"
 		}
-		"17"
+		"18"
 		{
-			"font" "resource/telegrafico_by_ficod.ttf"
-			"name" "Telegrafico"
+			"font" "resource/GeosansLight.ttf"
+			"name" "GeosansLight"
 		}
     }
 }

@@ -20,8 +20,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"ypos"			"35"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
@@ -33,12 +33,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"ypos"			"33"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
 		"wide"			"55"
 		"tall"			"55"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
@@ -47,13 +47,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"ypos"			"33"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
 		"tall"			"55"	[$WIN32]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -61,15 +61,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"40"
-		"ypos"			"-100"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"300"
-		"tall"			"240"
+		"wide"			"200"
+		"tall"			"44"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"east"	
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"White"
 	}								

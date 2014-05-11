@@ -175,13 +175,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
-		"ypos"			"-80"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 	}
 	
@@ -194,7 +194,7 @@
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"120"
-		"visible"		"1"
+		"visible"		"0"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
@@ -204,7 +204,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"GeoMainMenuSmall"
 		"labelText"		"#MMenu_Play"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
@@ -229,7 +229,7 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		//"border"		"MainMenuBGBorder"
 		
 		"TipSubLabel"
 		{
@@ -1465,7 +1465,7 @@
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"60"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 	}
@@ -1473,7 +1473,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CustomizeLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"GeoMainMenuSmall"
 		"labelText"		"#MMenu_Customize"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
@@ -1496,7 +1496,7 @@
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"60"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 	}
@@ -1504,7 +1504,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreateLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"GeoMainMenuSmall"
 		"labelText"		"#MMenu_Create"
 		"textAlignment"	"west"
 		"xpos"			"c-278"

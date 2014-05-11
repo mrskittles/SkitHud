@@ -10,7 +10,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		//"border"		"TFFatLineBorderOpaque"
 				
 		"PassedIcon"
 		{
@@ -76,7 +76,7 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		//"border"		"TFFatLineBorderOpaque"
 		
 		"Header"
 		{
@@ -392,7 +392,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		//"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -458,7 +458,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		//"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -527,7 +527,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaque"
+		//"border"			"TFFatLineBorderOpaque"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackground"	"0"
 
