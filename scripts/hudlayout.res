@@ -234,7 +234,7 @@
 		"xpos"		"10"	[$WIN32]
 		"ypos"		"r70"	[$WIN32]
 		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
+		"ypos"		"300"	[$X360]
 		"wide"		"500"
 		"tall"		"200"
 		"TextFont"	"Default"	[$X360]
@@ -246,8 +246,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"350"
-		"wide"	 	"252"
+		"ypos"		"300"
+		"wide"	 	"f0"
 		"tall"	 	"35"
 		"priority"	"40"
 
@@ -265,7 +265,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"350"
-		"wide"	 	"252"
+		"wide"	 	"f0"
 		"tall"	 	"35"
 		"priority"	"40"
 		"priority_lodef" "35"
@@ -280,8 +280,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
-		"wide"	 	"252"
+		"ypos"		"260"
+		"wide"	 	"f0"
 		"tall"	 	"35"
 		"priority"	"35"
 
@@ -359,8 +359,8 @@
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-20"
 		"ypos"	"440"
-		"wide"	"120"
-		"tall"  "40"
+		"wide"	"f0"
+		"tall"  "480"
 		"visible" "1"
 		"enabled" "1"
 		

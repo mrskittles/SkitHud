@@ -1360,7 +1360,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"GeosansLight"
+				"name"		"Hasteristico Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1817,8 +1817,7 @@ Scheme
 			"1"
 			{
 				"name"		"Hasteristico Bold"
-				"tall"		"52"
-				"tall_lodef"		"80"
+				"tall"		"45"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1 599"
