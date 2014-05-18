@@ -107,8 +107,8 @@
 			"unselectedcolor"	"130 120 104 255"	
 			"defaultBgColor_override"	"46 43 42 255"
 			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			//"activeborder_override"	"OutlinedGreyBox"
+			//"normalborder_override" "OutlinedDullGreyBox"
 		}
 	}
 	

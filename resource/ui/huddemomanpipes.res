@@ -4,7 +4,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"0"
+		"xpos"					"2"
 		"ypos"					"8"
 		"zpos"					"2"
 		"wide"					"150"
@@ -31,7 +31,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"Left"
-		"bgcolor_override" 	"20 20 20 255"
+		"bgcolor_override" 	"MeterBG"
 		"fgcolor_override" 	"White"
 		"dulltext"			"0"
 		"brighttext"		"0"

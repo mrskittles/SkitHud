@@ -2716,12 +2716,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -2730,12 +2730,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -2744,12 +2744,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -2758,12 +2758,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -2807,7 +2807,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "blank"
 					"offset" "0 1"
 				}
 			}
@@ -2816,7 +2816,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "blank"
 					"offset" "1 0"
 				}
 			}
@@ -2825,7 +2825,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "blank"
 					"offset" "0 0"
 				}
 			}
@@ -2834,7 +2834,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "blank"
 					"offset" "0 0"
 				}
 			}
@@ -2846,7 +2846,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "blank"
 					"offset" "0 1"
 				}
 			}
@@ -2855,7 +2855,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "blank"
 					"offset" "1 0"
 				}
 			}
@@ -2864,7 +2864,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "blank"
 					"offset" "0 0"
 				}
 			}
@@ -2873,7 +2873,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "blank"
 					"offset" "0 0"
 				}
 			}
@@ -2925,7 +2925,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "blank"
 					"offset" "0 1"
 				}
 			}
@@ -2934,7 +2934,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "blank"
 					"offset" "1 0"
 				}
 			}

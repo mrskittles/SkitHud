@@ -50,7 +50,7 @@
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"1"
+			//"paintborder"	"1"
 			
 			"model_xpos"	"2"
 			"model_ypos"	"5"
@@ -264,7 +264,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		//"paintborder"	"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -305,7 +305,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		//"paintborder"	"1"
 		
 		"model_ypos"	"3"
 		"model_tall"	"18"
@@ -597,7 +597,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		//"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -772,7 +772,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		//"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-50"
@@ -994,7 +994,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		//"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -1216,7 +1216,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		//"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -1438,7 +1438,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		//"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -1660,7 +1660,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		//"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"SortExplanation"
 		
 		"force_close"	"1"
@@ -1882,7 +1882,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		//"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-110"
