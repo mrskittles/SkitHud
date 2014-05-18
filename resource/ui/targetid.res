@@ -8,12 +8,12 @@
 		"ypos" 		"0"
 		"zpos" 		"-1"
 		"wide" 		"f0"
-		"tall" 		"50"
+		"tall" 		"25"
 		"autoResize" "0"
 		"pinCorner" "0"
 		"visible" 	"1"
 		"enabled" 	"1"
-		"fillcolor" "100 100 100 128"	
+		"fillcolor" "50 50 50 128"	
 	}
 	"TargetBackground2"
 	{
@@ -65,12 +65,12 @@
 		"ypos" 		"15"
 		"zpos" 		"-1"
 		"wide" 		"252"
-		"tall" 		"50"
+		"tall" 		"40"
 		"autoResize" "0"
 		"pinCorner" "0"
 		"visible" 	"1"
 		"enabled" 	"1"
-		"fillcolor" "100 100 100 128"
+		"fillcolor" "50 50 50 128"
 			
 	}
 	"TargetSpecBGRed"
@@ -81,12 +81,12 @@
 		"ypos" 		"-50"
 		"zpos" 		"-1"
 		"wide" 		"252"
-		"tall" 		"50"
+		"tall" 		"40"
 		"autoResize" "0"
 		"pinCorner" "0"
 		"visible" 	"1"
 		"enabled" 	"1"
-		"fillcolor" "100 100 100 128"
+		"fillcolor" "50 50 50 128"
 			
 	}
 	"TargetIDBG_Spec_Blue"
@@ -138,10 +138,10 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"TargetIDFont2"
 		"fgcolor"		"White"
 		"xpos"			"34"
-		"ypos"			"5"
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -158,10 +158,10 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"TFFontMedium"
+		"font"			"TargetIDFont"
 		"fgcolor"		"White"
 		"xpos"			"34"
-		"ypos"			"17"	[$WIN32]
+		"ypos"			"8"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -179,7 +179,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
-		"ypos"			"2"
+		"ypos"			"-2"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"

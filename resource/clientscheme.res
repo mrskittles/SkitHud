@@ -25,37 +25,39 @@ Scheme
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
 		
+		
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"0 28 162 140"
-		"Yellow"			"251 235 202 255"
+		"Yellow"			"255 255 255 255"
 		"TransparentYellow"	"251 235 202 140"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
-		"Black"				"46 43 42 255"
+		"MeterBG"			"20 20 20 255"
+		"Black"				"40 40 40 255"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 		
-		"BLUteam"				"70 130 180 255"
+		"BLUteam"				"70 130 180 255"	//New team colors :3
 		"REDteam"				"205 50 50 255"
 		"HUDBlueTeam"		"104 124 155 127"
 		"HUDRedTeam"		"180 92 77 127"
 		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"104 124 155 255"
-		"HUDRedTeamSolid"	"180 92 77 255"
+		"HUDBlueTeamSolid"	"70 130 180 255"
+		"HUDRedTeamSolid"	"205 50 50 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"200 187 161 255"
+		"HudOffWhite"		"255 255 255 255"
 		"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
 		
 		"CreditsGreen"		"94 150 49 255"
 		
-		"Gray"				"178 178 178 255"
+		"Gray"				"180 180 180 255"
 
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"
@@ -71,7 +73,7 @@ Scheme
 		"HudProgressBarActiveLow"	"240 30 30 255"
 		"HudProgressBarInActiveLow"	"240 30 30 99"	
 
-		"HudTimerProgressActive"	"251 235 202 255"
+		"HudTimerProgressActive"	"255 255 255 255"
 		"HudTimerProgressInActive"	"52 48 45 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
 
@@ -436,7 +438,7 @@ Scheme
 			"1"
 			{
 				"name"		"GeoSansLight"
-				"tall"		"10"
+				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
 			}
@@ -576,7 +578,17 @@ Scheme
 				"weight"		"0"
 			}
 		}
-
+		
+		"VeryTiny"
+		{
+			"1"
+			{
+				"name"		"GeosansLight"
+				"tall"		"9"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
 
 		"DefaultVerySmall"
 		{
@@ -980,7 +992,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -993,7 +1005,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Quicksand-Regular"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1005,7 +1017,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Quicksand-Regular"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1016,7 +1028,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1039,7 +1051,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1050,7 +1062,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1061,7 +1073,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1092,6 +1104,17 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		"TargetIDFont2"
+		{
+			"1"
+			{
+				"name"		"Quicksand-Regular"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 		"HudFontSmall"
@@ -1167,7 +1190,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1190,7 +1213,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Quicksand-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1730,7 +1753,7 @@ Scheme
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1750,7 +1773,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Quicksand-Regular"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1763,7 +1786,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Quicksand-Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2103,7 +2126,18 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
+		TargetIDFont
+		{
+			"1"
+			{
+				"name"		"Quicksand-Regular"
+				"tall"		"9"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
 		
 		InstructionalText
 		{

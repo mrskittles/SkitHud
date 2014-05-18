@@ -76,7 +76,7 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"HudAmmoReserve"
 		"fgcolor"		"White"
-		"xpos"			"c137"
+		"xpos"			"c150"
 		"ypos"			"342"
 		"zpos"			"5"
 		"wide"			"40"

@@ -77,7 +77,7 @@
 		"wide"			"f0"
 		"tall"			"4"
 		"MeterFG"		"White"
-		"MeterBG"		"Black"
+		"MeterBG"		"MeterBG"
 	}
 	
 	HudMedicCharge
@@ -90,7 +90,7 @@
 		"wide"			"f0"
 		"tall"			"90"
 		"MeterFG"		"White"
-		"MeterBG"		"Black"
+		"MeterBG"		"MeterBG"
 	}
 	
 	HudDemomanCharge				//stickybombs
@@ -98,13 +98,13 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"353"
+		"xpos"			"353"	
 		"ypos"			"342"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"f0"
 		"tall"			"4"
 		"MeterFG"		"White"
-		"MeterBG"		"Black"
+		"MeterBG"		"MeterBG"
 	}
 		
 
@@ -117,9 +117,9 @@
 		"ypos"			"342"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"200"
-		"tall"			"4"
+		"tall"			"2"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"MeterBG"
 	}
 
 	HudFlameRocketCharge
@@ -192,8 +192,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
+		"xpos"					"400"	[$WIN32]
+		"ypos"					"350"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -268,7 +268,6 @@
 		"wide"	 	"f0"
 		"tall"	 	"35"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"

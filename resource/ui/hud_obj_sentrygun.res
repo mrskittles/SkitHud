@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
@@ -90,7 +90,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"VeryTiny"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"

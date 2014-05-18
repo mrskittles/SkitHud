@@ -4,22 +4,41 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"16"
-		"ypos"			"9"
+		"xpos"			"18"
+		"ypos"			"20"
 		"zpos"			"2"
-		"wide"			"78"
-		"tall"			"33"
+		"wide"			"70"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"18"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"70"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 150" //"0 0 0 190"
+	}
+	
 	"TimePanelProgressBar"
 	{
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
-		"ypos"				"16"
+		"xpos"				"9999"
+		"ypos"				"3"
 		"zpos"				"4"	
 		"wide"				"20"
 		"tall"				"20"
@@ -54,15 +73,13 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"9999"	[$WIN32]
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 	}
@@ -89,12 +106,10 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -123,12 +138,10 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -157,7 +170,6 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"
@@ -188,7 +200,7 @@
 	}
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"16"	[$WIN32]
 		"ypos"			"31"
@@ -197,7 +209,8 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"fillcolor"		"40 40 40 255"
+		//"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 	}
 }

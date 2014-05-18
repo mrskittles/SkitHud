@@ -6,11 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"350"	[$WIN32]
-		"ypos"			"356"	[$WIN32]
+		"ypos"			"371"	[$WIN32]
 		"wide"			"150"
 		"tall"			"50"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"MeterBG"
 	}
 
 	
@@ -44,12 +44,14 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"4"				
+		"tall"					"2"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
+		"fgcolor_override"		"White"
+		"bgcolor_override"		"MeterBG"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					

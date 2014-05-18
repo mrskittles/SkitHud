@@ -4,15 +4,15 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentSetupBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"180"
 		"tall"			"65"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_brown"
 
 
@@ -80,8 +80,8 @@
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"		"235 226 202 255"
-		"bgcolor_override"	"0 0 0 255"
+		//"fgcolor_override"		"50 50 50 255" //"235 226 202 255"
+		"bgcolor_override"	"50 50 50 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
 	}

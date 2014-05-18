@@ -15,6 +15,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Center"
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"MeterBG"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}					

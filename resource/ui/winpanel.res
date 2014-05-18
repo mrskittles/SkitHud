@@ -9,38 +9,40 @@
 		"wide"			"480"
 		"tall"			"60"
 		"visible"		"1"
-
-		"BlueScoreBG"
+		
+		"BlueScoreBGold"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"0"
-			"ypos"			"10"
-			"wide"			"240"
+			"ypos"			"10"	//10
+			"wide"			"240"	//240
 			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_blue_bg_team"
-			"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
-			"scaleImage"		"1"
+			//"image"			"../hud/winpanel_blue_bg_team"
+			//"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
+			//"scaleImage"		"1"
+			"fillcolor"		"BLUteam"
 		}
-		"RedScoreBG"
+		"RedScoreBGold"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RedScoreBG"
 			"xpos"			"140"
-			"ypos"			"10"
-			"wide"			"240"
+			"ypos"			"10"	//10
+			"wide"			"240"	//240
 			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_red_bg_team"
-			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
-			"scaleImage"		"1"
+			//"image"			"../hud/winpanel_red_bg_team"
+			//"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
+			//"scaleImage"		"1"
+			"fillcolor"		"REDteam"
 		}
 		"BlueTeamLabel"
 		{
@@ -88,7 +90,7 @@
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"81"
-			"ypos"			"1"
+			"ypos"			"9999"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
@@ -116,6 +118,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor"		"White"
 		}							
 		"RedTeamScore"
 		{
@@ -135,6 +138,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor"		"White"
 		}
 		"RedTeamScoreDropshadow"
 		{
@@ -144,7 +148,7 @@
 			"fgcolor"		"Black"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
-			"xpos"			"203"
+			"xpos"			"9999"
 			"ypos"			"1"
 			"zpos"			"3"
 			"wide"			"100"
@@ -181,14 +185,15 @@
 		"zpos"			"1"
 		"wide"			"292"
 		"tall"			"24"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
 		"textAlignment"		"Center"
+		"fgcolor"		"White"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 	}
 	"WinningTeamLabelDropshadow"
 	{	
@@ -196,7 +201,7 @@
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"ScoreboardTeamName"
 		"fgcolor"		"black"
-		"xpos"			"1"
+		"xpos"			"9999"
 		"ypos"			"73"
 		"zpos"			"1"
 		"wide"			"292"
@@ -236,7 +241,7 @@
 		"font"			"ScoreboardMedium"
 		"fgcolor"		"black"
 		"xpos"			"1"
-		"ypos"			"73"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"292"
 		"tall"			"20"
@@ -357,7 +362,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"250 234 201 255"
+		"fillcolor"		"White"
 		"PaintBackgroundType"	"0"
 	}
 	"Player1Avatar"		[$WIN32]
